@@ -202,14 +202,6 @@ export default function Portfolio() {
                     大学でUXやリビングラボに関する研究を行っています。ユーザー中心設計の観点から、
                     技術とユーザーニーズを橋渡しするプロダクト開発に興味を持っています。
                   </p>
-                  <h3 className="text-2xl font-semibold mb-4" style={{ color: "#1B263B" }}>
-                    研究以外の活動
-                  </h3>
-                  <p className="mb-4" style={{ color: "#415A77" }}>
-                    ARLISS（缶サット競技）への参加や企業との共同研究を通じて、
-                    実践的な開発経験を積んでいます。チームでの開発において、
-                    技術的な実装だけでなく、プロジェクト管理や要件定義にも携わっています。
-                  </p>
                 </div>
               </AnimatedSection>
 
@@ -279,15 +271,15 @@ export default function Portfolio() {
                         <CardDescription style={{ color: "#415A77" }}>お笑いネタ作り支援AI</CardDescription>
                       </CardHeader>
                       <p className="mb-4" style={{ color: "#415A77" }}>
-                        React + GPTを活用したお笑いネタ作成支援アプリケーション。
-                        ユーザーの入力に基づいてAIがネタのアイデアを提案し、 創作活動をサポートします。
+                        React + hono, fastAPIを活用したお笑いネタ作成支援アプリケーション。
+                        ユーザーの入力に基づいて複数のAIがネタのアイデアを提案し、 創作活動をサポートします。
                       </p>
                       <div className="mb-4">
                         <p className="font-semibold mb-2" style={{ color: "#1B263B" }}>
                           役割・成果
                         </p>
                         <p className="text-sm" style={{ color: "#415A77" }}>
-                          フロントエンド開発、プレゼン登壇
+                          プロンプトチューニング、AI設定機能開発、ピッチプレゼン登壇
                         </p>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -303,14 +295,56 @@ export default function Portfolio() {
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          GPT API
+                          TypeScript
                         </Badge>
                         <Badge
                           variant="outline"
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          TypeScript
+                          vite
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          vercel
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          hono
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          fastapi
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          docker
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          gcp
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          supabase
                         </Badge>
                       </div>
                     </CardContent>
@@ -341,15 +375,15 @@ export default function Portfolio() {
                         <CardDescription style={{ color: "#415A77" }}>顧客管理システムの要件定義・開発</CardDescription>
                       </CardHeader>
                       <p className="mb-4" style={{ color: "#415A77" }}>
-                        エネルギー業界向けCRMシステムの開発プロジェクト。
-                        PM的な立場で要件定義からタスク管理、チーム調整まで幅広く担当。
+                        顧客管理システムの新規開発
+                        CRMシステムの開発プロジェクト。 PM兼エンジニアとして要件定義からタスク管理、チーム調整、開発まで幅広く担当。
                       </p>
                       <div className="mb-4">
                         <p className="font-semibold mb-2" style={{ color: "#1B263B" }}>
                           役割・成果
                         </p>
                         <p className="text-sm" style={{ color: "#415A77" }}>
-                          要件定義、プロジェクト管理、チーム調整
+                          要件定義、プロジェクト管理、チーム調整、開発
                         </p>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -358,21 +392,56 @@ export default function Portfolio() {
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          要件定義
+                          React
                         </Badge>
                         <Badge
                           variant="outline"
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          プロジェクト管理
+                          TypeScript
                         </Badge>
                         <Badge
                           variant="outline"
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          チームマネジメント
+                          Vite
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          ESLint
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          Nginx
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          Go(Echo)
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          Docker
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          posgreSQL
                         </Badge>
                       </div>
                     </CardContent>
@@ -403,15 +472,15 @@ export default function Portfolio() {
                         <CardDescription style={{ color: "#415A77" }}>脱炭素とNFTの研究開発</CardDescription>
                       </CardHeader>
                       <p className="mb-4" style={{ color: "#415A77" }}>
-                        脱炭素社会実現に向けたNFT活用の研究プロジェクト。
-                        Solidityでのスマートコントラクト開発とPythonでのデータ分析を担当。
+                        脱炭素とNFTの研究開発
+                        脱炭素社会実現に向けたNFT活用の研究プロジェクト。 Solidityでのスマートコントラクト開発とPythonでのデータ分析を担当。
                       </p>
                       <div className="mb-4">
                         <p className="font-semibold mb-2" style={{ color: "#1B263B" }}>
                           役割・成果
                         </p>
                         <p className="text-sm" style={{ color: "#415A77" }}>
-                          技術開発、先輩後輩マネジメント
+                          データサイエンス、開発、マネジメント、採用
                         </p>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -428,20 +497,6 @@ export default function Portfolio() {
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
                           Python
-                        </Badge>
-                        <Badge
-                          variant="outline"
-                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
-                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
-                        >
-                          NFT
-                        </Badge>
-                        <Badge
-                          variant="outline"
-                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
-                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
-                        >
-                          ブロックチェーン
                         </Badge>
                       </div>
                     </CardContent>
@@ -472,15 +527,15 @@ export default function Portfolio() {
                         <CardDescription style={{ color: "#415A77" }}>缶サット競技・探査機開発</CardDescription>
                       </CardHeader>
                       <p className="mb-4" style={{ color: "#415A77" }}>
-                        アメリカ・ネバダ州で開催される缶サット競技に参加。
-                        探査機の設計・開発から現地でのトラブル対応まで一貫して担当。
+                        アメリカ・ネバダ州、ブラックロック砂漠で開催される缶サット競技に参加。 
+                        探査機の設計・開発から現地でのトラブル対応まで一貫して携わる。UNISEC賞受賞
                       </p>
                       <div className="mb-4">
                         <p className="font-semibold mb-2" style={{ color: "#1B263B" }}>
                           役割・成果
                         </p>
                         <p className="text-sm" style={{ color: "#415A77" }}>
-                          探査機開発、現地トラブル対応、UNISEC賞受賞
+                          探査機の機体開発、現地整備
                         </p>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -489,28 +544,7 @@ export default function Portfolio() {
                           className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
                           style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
                         >
-                          C言語
-                        </Badge>
-                        <Badge
-                          variant="outline"
-                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
-                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
-                        >
-                          組み込み開発
-                        </Badge>
-                        <Badge
-                          variant="outline"
-                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
-                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
-                        >
                           ハードウェア
-                        </Badge>
-                        <Badge
-                          variant="outline"
-                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
-                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
-                        >
-                          チーム開発
                         </Badge>
                       </div>
                     </CardContent>
@@ -535,40 +569,22 @@ export default function Portfolio() {
             </AnimatedSection>
 
             <div className="space-y-8">
-              <AnimatedSection delay={200} direction="left">
+              <AnimatedSection>
                 <div>
                   <h3 className="text-xl font-semibold mb-4" style={{ color: "#1B263B" }}>
                     プログラミング言語
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Python
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      TypeScript
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Solidity
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      C
-                    </Badge>
+                    {["Python", "TypeScript", "Go", "Scala", "C"].map((lang) => (
+                      <Badge
+                        key={lang}
+                        variant="outline"
+                        className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
+                        style={{ borderColor: "#778DA9", color: "#1B263B" }}
+                      >
+                        {lang}
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               </AnimatedSection>
@@ -579,41 +595,19 @@ export default function Portfolio() {
                     フレームワーク・ライブラリ
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      React
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Next.js
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Tailwind CSS
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      scikit-learn
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Optuna
-                    </Badge>
+                    {[
+                      "React", "Angular", "Tailwind CSS", "Vite",
+                      "scikit-learn", "Optuna", "SHAP", "pandas", "numpy"
+                    ].map((fw) => (
+                      <Badge
+                        key={fw}
+                        variant="outline"
+                        className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
+                        style={{ borderColor: "#778DA9", color: "#1B263B" }}
+                      >
+                        {fw}
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               </AnimatedSection>
@@ -624,72 +618,56 @@ export default function Portfolio() {
                     ツール・プラットフォーム
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Git
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      AWS
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Figma
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      Anki
-                    </Badge>
+                    {["Docker", "AWS", "GCP Cloud Run", "ESLint", "Nginx", "Git"].map((tool) => (
+                      <Badge
+                        key={tool}
+                        variant="outline"
+                        className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
+                        style={{ borderColor: "#778DA9", color: "#1B263B" }}
+                      >
+                        {tool}
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               </AnimatedSection>
 
-              <AnimatedSection delay={800} direction="right">
+              <AnimatedSection delay={700} direction="right">
+                <div>
+                  <h3 className="text-xl font-semibold mb-4" style={{ color: "#1B263B" }}>
+                    バックエンド / データベース
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {["FastAPI", "Hono", "Echo", "Play", "PostgreSQL", "Supabase"].map((item) => (
+                      <Badge
+                        key={item}
+                        variant="outline"
+                        className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
+                        style={{ borderColor: "#778DA9", color: "#1B263B" }}
+                      >
+                        {item}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              </AnimatedSection>
+
+              <AnimatedSection delay={800} direction="left">
                 <div>
                   <h3 className="text-xl font-semibold mb-4" style={{ color: "#1B263B" }}>
                     ソフトスキル
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      ファシリテーション
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      プレゼンテーション
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      プロジェクトマネジメント
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
-                      style={{ borderColor: "#778DA9", color: "#1B263B" }}
-                    >
-                      チームマネジメント
-                    </Badge>
+                    {["ファシリテーション", "プレゼンテーション", "プロジェクトマネジメント", "チームマネジメント"].map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="outline"
+                        className="text-sm border transition-all duration-300 hover:transform hover:scale-110 hover:shadow-sm"
+                        style={{ borderColor: "#778DA9", color: "#1B263B" }}
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
                   </div>
                 </div>
               </AnimatedSection>
