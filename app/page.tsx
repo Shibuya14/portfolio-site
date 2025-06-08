@@ -266,7 +266,7 @@ export default function Portfolio() {
                     <CardContent className="p-6">
                       <CardHeader className="p-0 mb-4">
                         <CardTitle className="text-xl" style={{ color: "#1B263B" }}>
-                          GIFTech2025春「ささAI」
+                          GIFTech2025春「ささAI」(2025.04-2025.05)
                         </CardTitle>
                         <CardDescription style={{ color: "#415A77" }}>お笑いネタ作り支援AI</CardDescription>
                       </CardHeader>
@@ -370,7 +370,7 @@ export default function Portfolio() {
                     <CardContent className="p-6 md:order-1">
                       <CardHeader className="p-0 mb-4">
                         <CardTitle className="text-xl" style={{ color: "#1B263B" }}>
-                          エネクラウドCRM開発
+                          エネクラウドCRM開発(2025.03)
                         </CardTitle>
                         <CardDescription style={{ color: "#415A77" }}>顧客管理システムの要件定義・開発</CardDescription>
                       </CardHeader>
@@ -467,7 +467,7 @@ export default function Portfolio() {
                     <CardContent className="p-6">
                       <CardHeader className="p-0 mb-4">
                         <CardTitle className="text-xl" style={{ color: "#1B263B" }}>
-                          CTC共同研究
+                          CTC共同研究(2023.08-2025.03)
                         </CardTitle>
                         <CardDescription style={{ color: "#415A77" }}>脱炭素とNFTの研究開発</CardDescription>
                       </CardHeader>
@@ -522,7 +522,7 @@ export default function Portfolio() {
                     <CardContent className="p-6 md:order-1">
                       <CardHeader className="p-0 mb-4">
                         <CardTitle className="text-xl" style={{ color: "#1B263B" }}>
-                          ARLISS
+                          ARLISS(2024.03-2024.10)
                         </CardTitle>
                         <CardDescription style={{ color: "#415A77" }}>缶サット競技・探査機開発</CardDescription>
                       </CardHeader>
@@ -706,11 +706,6 @@ export default function Portfolio() {
                       <p className="mb-4" style={{ color: "#415A77" }}>
                         一足の靴を完成させるまでには約3ヶ月かかりますが、 細部へのこだわりと完成時の達成感は格別です。
                       </p>
-                      <p className="mb-4" style={{ color: "#415A77" }}>
-                        この経験を通じて、ものづくりの奥深さと、
-                        ユーザー（履く人）の立場に立った設計の重要性を学びました。
-                        エンジニアリングにも通じる、品質への妥協しない姿勢を大切にしています。
-                      </p>
                     </div>
                     <div className="space-y-4">
                       <div
@@ -799,7 +794,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 transition-all duration-500" style={{ backgroundColor: "#0D1B2A", color: "#E0E1DD" }}>
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 渋谷佳吾. All rights reserved.</p>
+          <p>&copy; 2025 渋谷佳吾. All rights reserved.</p>
         </div>
       </footer>
     </div>
