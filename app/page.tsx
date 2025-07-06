@@ -551,6 +551,55 @@ export default function Portfolio() {
                   </div>
                 </Card>
               </AnimatedSection>
+
+              {/* Project 5 */}
+              <AnimatedSection delay={1000}>
+                <Card
+                  className="overflow-hidden border-0 shadow-lg transition-all duration-300 hover:shadow-xl hover:transform hover:scale-[1.01]"
+                  style={{ backgroundColor: "#E0E1DD" }}
+                >
+                  <div className="grid md:grid-cols-2 gap-0">
+                    <div className="relative h-64 md:h-auto overflow-hidden">
+                      <Image
+                        src="/giken_ai_market.jpeg"
+                        alt="技研AIマーケット2"
+                        fill
+                        className="object-cover transition-transform duration-700 hover:scale-110"
+                      />
+                    </div>
+                    <CardContent className="p-6">
+                      <CardHeader className="p-0 mb-4">
+                        <CardTitle className="text-xl" style={{ color: "#1B263B" }}>
+                        技研AIマーケット2(2025.06.01)
+                        </CardTitle>
+                        <CardDescription style={{ color: "#415A77" }}> AIを活用した商品の販売 </CardDescription>
+                      </CardHeader>
+                      <p className="mb-4" style={{ color: "#415A77" }}>
+                        技研AIマーケット2は、技研ベース　（東京都千代田区東神田2-8-1）で開催されたAIを活用した商品の販売ができるAI総合展示即売会です。
+                        「AIをつくって売る。AIでつくって売る。」をキャッチフレーズにしています。
+                        PMの師匠、まさぴょんさんの「ぴゅぴゅまる🐱Shop」にて、AIを活用したブックカバーやしおりなどを販売しました。
+                      </p>
+                      <div className="mb-4">
+                        <p className="font-semibold mb-2" style={{ color: "#1B263B" }}>
+                          役割・成果
+                        </p>
+                        <p className="text-sm" style={{ color: "#415A77" }}>
+                        商品企画
+                        </p>
+                      </div>
+                      <div className="flex flex-wrap gap-2">
+                        <Badge
+                          variant="outline"
+                          className="border-0 text-sm transition-all duration-300 hover:transform hover:scale-105"
+                          style={{ backgroundColor: "#778DA9", color: "#E0E1DD" }}
+                        >
+                          ハンドメイド
+                        </Badge>
+                      </div>
+                    </CardContent>
+                  </div>
+                </Card>
+              </AnimatedSection>
             </div>
           </div>
         </div>
